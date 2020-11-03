@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu   main   main   main   main    main' 
+    'footer  footer footer footer footer footer';
+  grid-gap: 3px;
+
+
+  grid-template-rows: auto  400px  auto;
+
+
+
+  background-color: grey;
+  padding: 3px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+
+
+
+
+
+<div class="grid-container">
+  <div class="item1">Vegan & Middle Eastern </div>
+  <div class="item2">jump to ...
+    <br>
+  
+    <A HREF="page1.html" LINK="red">Tabouleh</A>
+
+    <br>
+    <A HREF="page2.html" LINK="red">Baba ganoush</A>
+    <br>
+
+    <A HREF="page3.html" LINK="red">Hummus </A>
+
+
+
+
+  
+  </div>
+
+
+
+  <div class="item3">
+  
+  
+    <p> 
+  
+  
+welcome here ..... three delicious and healthy dishes from the middle east.
+<br>
+
+<ul style="text-align:left">
+  <li>Tabouleh</li>
+  <li>Baba ganoush</li>
+  <li>Hummus</li>
+  
+
+</ul>
+
+  
+  </p>
+  
+  </div>  
+
+  <div class="item5">Abdulhadi , 076-4341933</div>
+</div>
+
+</body>
+</html>

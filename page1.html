@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+
+img {
+  float: right;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu   main   main   main   main    main' 
+
+    'footer  footer footer footer footer footer';
+  grid-gap: 3px;
+  background-color: grey;
+  padding: 3px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+
+<div class="grid-container">
+  <div class="item1">  Vegan & Middle Eastern </div>
+
+  <div class="item2"> jump to...
+    
+    <br>
+  
+    <A HREF="page1.html" LINK="red">Tabouleh</A>
+
+    <br>
+    <A HREF="page2.html" LINK="red">Baba ganoush</A>
+    <br>
+
+    <A HREF="page3.html" LINK="red">Hummus </A>
+
+
+
+  </div>
+  <div class="item3">
+  
+  
+
+    <p style="text-align:left"> 
+
+
+<img src="https://cookieandkate.com/images/2019/07/classic-tabouli-recipe-2-768x1154.jpg" alt="tabboleh" style="width:170px;height:170px;margin-left:15px;">
+Tabbouleh is a Levantine 
+vegetarian salad made mostly of finely chopped parsley, with tomatoes, mint, onion, bulgur (soaked, not cooked), 
+and seasoned with olive oil, lemon juice, salt and sweet pepper. Some variations add lettuce, or use semolina instead of bulgur.
+  
+
+  
+
+<h>
+  <br>
+  Ingredients:</h>
+
+  </p>
+
+
+  <ul style="text-align:left">
+    <li>Parsley</li>
+    <li>tomato</li>
+    <li>bulgur</li>
+    <li>onion</li>
+    <li>olive oil</li>
+    <li>lemon juice</li>
+     <li>salt</li>
+  
+  </ul>
+
+  
+  </div>  
+
+  <div class="item5">Abdulhadi , 076-4341933</div>
+
+</div>
+
+</body>
+</html>
